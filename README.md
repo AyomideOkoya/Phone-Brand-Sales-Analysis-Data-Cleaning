@@ -77,9 +77,11 @@ Identified and removed outliers based on:
 WHERE Discount_Percentage > 100 OR Discount_Percentage < 0
    OR Rating > 5 OR Rating < 0
    OR Selling_Price < 0 OR Original_Price < 0;*
-
+---
 ### 4. Export for Visualization
-The cleaned dataset was exported to a new CSV file for use in Tableau:
+The cleaned dataset was exported to a new CSV file for use in Tableau
+
+---
 
 ### 5. Summary of Cleaning Outcomes
 **Missing Values Addressed:** Filled null ratings and recalculated missing discount percentages.
@@ -98,6 +100,8 @@ The cleaned dataset was visualized in Tableau to create the **Phone Brand Sales 
 3. Customer ratings across price ranges
 4. Flagship model performance compared to discounted models
 
+
+-----
 
 # Phone Brand Sales Analysis
 
@@ -178,15 +182,5 @@ The objective of this project is to analyze phone sales data, extract key insigh
 
 ## Tools Used
 
-- **Data Visualization**: Power BI / Tableau (as per user preference)
-- **Data Processing**: Python (pandas, numpy) or SQL for data cleaning and preparation
-- **Design Tools**: Canva / Photoshop for portfolio design
-
----
-
-## Project Outcome
-
-This project demonstrates:
-- Expertise in analyzing sales, pricing, and customer feedback.
-- The ability to extract actionable insights and recommend strategies to optimize business performance.
-- Proficiency in creating dashboards and communicating findings visually and textually.
+- **Data Visualization**: Tableau 
+- **Data Processing**: Tableau
