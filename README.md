@@ -97,3 +97,96 @@ The cleaned dataset was visualized in Tableau to create the **Phone Brand Sales 
 2. Models with the highest discount percentages
 3. Customer ratings across price ranges
 4. Flagship model performance compared to discounted models
+
+
+# Phone Brand Sales Analysis
+
+## Objective
+
+The objective of this project is to analyze phone sales data, extract key insights, and provide actionable recommendations for optimizing sales, discounts, and customer satisfaction.
+
+---
+
+## Dashboard Overview
+![Phone Brand Dashboard](image.jpg)
+
+### Key Metrics Highlighted:
+- **Total Discount Given**: $3,962,443
+- **Average Selling Price**: $35,077
+- **Average Ratings**: 4.33
+- **Number of Products with Camera**: 1,693
+
+### Top Insights From the Dashboard:
+1. **Apple** leads in sales revenue ($31,728,412), followed by **Samsung** ($17,469,003).
+2. Older phone models (e.g., iPhone XS, iPhone 11 Pro) receive the highest discounts, exceeding 200%.
+3. Customer ratings remain high across all price ranges, indicating consistent quality perception.
+4. Flagship models like the iPhone 13 Pro Max retain their full price, maximizing revenue.
+
+---
+
+## Analysis and Insights
+
+### 1. Models with Highest Discounts
+- Older models dominate the highest discount list, with **iPhone XS** at the top (279.1%).
+- Discounts likely aim to clear inventory, aligning with expected market behavior for older products.
+
+**Recommendation**: Monitor discount levels to avoid negatively impacting newer model sales.
+
+---
+
+### 2. Brand Sales Contribution
+- **Apple** dominates with over $31.7M in revenue, while **Samsung** follows at $17.4M.
+- **Realme** and **OPPO** contribute smaller shares but still present growth potential.
+
+**Recommendation**: Focus on targeted promotions for mid-tier brands like **realme** and **OPPO** to diversify revenue streams.
+
+---
+
+### 3. Customer Ratings Across Price Ranges
+- Customer ratings show minimal variance, with high scores (4.05–4.39) across all price ranges.
+- This reflects consistent satisfaction across low, mid, and high-end models.
+
+**Recommendation**: Leverage positive reviews as a marketing tool, especially for lower-priced models to increase their appeal.
+
+---
+
+### 4. Flagship vs. Discounted Models
+- Flagship models like the **iPhone 13 Pro Max** are sold at full price, maximizing revenue potential.
+- Older models (e.g., iPhone XR, iPhone 7 Plus) rely on aggressive discounts to drive sales.
+
+**Recommendation**: Protect flagship models' brand value while optimizing clearance strategies for older inventory.
+
+---
+
+## Key Visualizations
+
+1. **Total Sales Contribution by Brand** (Pie Chart)
+2. **Discounts by Model** (Bar Chart)
+3. **Customer Ratings by Price Range** (Bar Chart)
+4. **Highest Revenue-Generating Models and Discounts** (Bar Chart)
+
+---
+
+## Recommendations
+
+1. **Optimize Discounts**: Use dynamic pricing strategies to balance inventory clearance and profitability.
+2. **Enhance Mid-Range Offerings**: Focus on $10,000–$15,000 price ranges with competitive features.
+3. **Leverage Customer Ratings**: Highlight high satisfaction scores in promotional campaigns.
+4. **Boost Underperforming Brands**: Drive growth for **realme** and **OPPO** with targeted marketing efforts.
+
+---
+
+## Tools Used
+
+- **Data Visualization**: Power BI / Tableau (as per user preference)
+- **Data Processing**: Python (pandas, numpy) or SQL for data cleaning and preparation
+- **Design Tools**: Canva / Photoshop for portfolio design
+
+---
+
+## Project Outcome
+
+This project demonstrates:
+- Expertise in analyzing sales, pricing, and customer feedback.
+- The ability to extract actionable insights and recommend strategies to optimize business performance.
+- Proficiency in creating dashboards and communicating findings visually and textually.
