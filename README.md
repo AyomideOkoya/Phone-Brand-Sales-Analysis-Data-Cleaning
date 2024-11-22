@@ -50,7 +50,7 @@ SET Discount_Percentage = ((Original_Price - Selling_Price) / Original_Price) * 
 WHERE Discount_Percentage IS NULL;*
 
 #### Step 3: Standardizing Brand and Model Names
-Standardized the brand and model names by converting them to uppercase and trimming whitespace
+Standardized the brand and model names by converting them to uppercase and trimming whitespace.
 *UPDATE phone_sales
 SET Brand = UPPER(Brand),
     Model = TRIM(Model);*
