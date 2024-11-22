@@ -44,7 +44,7 @@ The CSV file was imported into the database using SQL’s `LOAD DATA` function.
 #### Step 2: Handling Missing Values
 - **Ratings**: Replaced missing ratings with the average rating of the respective brand.
 
-- **Discount Percentages**: Recalculated missing discounts using the formula:            
+-- **Discount Percentages**: Recalculated missing discounts using the formula:            
 
 *UPDATE phone_sales
 SET Discount_Percentage = ((Original_Price - Selling_Price) / Original_Price) * 100
@@ -84,7 +84,7 @@ The cleaned dataset was exported to a new CSV file for use in Tableau:
 ### 5. Summary of Cleaning Outcomes
 **Missing Values Addressed:** Filled null ratings and recalculated missing discount percentages.
 **Inconsistent Data Fixed:** Standardized brand/model names and removed duplicates.
-**Outliers Removed:** Unrealistic values in price, discount percentages, and ratings were deleted.
+**Outluiers Removed:** Unrealistic values in pricee, discount percentages, and ratings were deleted.
 **Enhanced Dataset:** Added calculated fields like Profit_Margin and Discount Amount for deeper insights.
 
 ### Data Visualization
