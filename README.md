@@ -42,21 +42,21 @@ The dataset had the following issues:
 The CSV file was imported into the database using SQL’s `LOAD DATA` function.
 
 #### Step 2: Handling Missing Values
-**Ratings**: Replaced missing ratings with the average rating of the respective brand.
+- **Ratings**: Replaced missing ratings with the average rating of the respective brand.
 
-**Discount Percentages**: Recalculated missing discounts using the formula:
+-- **Discount Percentages**: Recalculated missing discounts using the formula:            
 *UPDATE phone_sales
 SET Discount_Percentage = ((Original_Price - Selling_Price) / Original_Price) * 100
 WHERE Discount_Percentage IS NULL;*
 
 #### Step 3: Standardizing Brand and Model Names
-Standardized the brand and model names by converting them to uppercase and trimming whitespace.
+Standardized the brand and model names by converting them to uppercase and trimming whitespace.     
 *UPDATE phone_sales
 SET Brand = UPPER(Brand),
     Model = TRIM(Model);*
 
 #### Step 4: Removing Duplicates
-Used GROUP BY and HAVING clauses to identify and remove duplicate records.
+Used GROUP BY and HAVING clauses to identify and remove duplicate records.        
 *DELETE FROM phone_sales
 WHERE id NOT IN (
     SELECT MIN(id)
