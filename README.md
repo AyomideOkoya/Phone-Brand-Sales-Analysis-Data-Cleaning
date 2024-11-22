@@ -3,7 +3,6 @@ The goal of this project was to analyze phone sales data, clean and prepare it f
 
 # Phone Brand Sales Analysis - Data Cleaning and Visualization
 
----
 
 ## Dataset Cleaning and Preparation Process
 
