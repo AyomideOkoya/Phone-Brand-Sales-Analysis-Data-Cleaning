@@ -80,10 +80,15 @@ WHERE Discount_Percentage > 100 OR Discount_Percentage < 0
 
 ### 4. Export for Visualization
 The cleaned dataset was exported to a new CSV file for use in Tableau:
+
 ### 5. Summary of Cleaning Outcomes
+
 **Missing Values Addressed:** Filled null ratings and recalculated missing discount percentages.
+
 **Inconsistent Data Fixed:** Standardized brand/model names and removed duplicates.
+
 **Outluiers Removed:** Unrealistic values in pricee, discount percentages, and ratings were deleted.
+
 **Enhanced Dataset:** Added calculated fields like Profit_Margin and Discount Amount for deeper insights.
 
 ### Data Visualization
