@@ -77,7 +77,9 @@ Identified and removed outliers based on:
 WHERE Discount_Percentage > 100 OR Discount_Percentage < 0
    OR Rating > 5 OR Rating < 0
    OR Selling_Price < 0 OR Original_Price < 0;*
+   
 ---
+
 ### 4. Export for Visualization
 The cleaned dataset was exported to a new CSV file for use in Tableau
 
