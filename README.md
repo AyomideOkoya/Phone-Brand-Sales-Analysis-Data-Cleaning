@@ -73,7 +73,24 @@ Identified and removed outliers based on:
 - Ratings > 5 or < 0
 - Negative prices
 
-DELETE FROM phone_sales
+*DELETE FROM phone_sales
 WHERE Discount_Percentage > 100 OR Discount_Percentage < 0
    OR Rating > 5 OR Rating < 0
-   OR Selling_Price < 0 OR Original_Price < 0;
+   OR Selling_Price < 0 OR Original_Price < 0;*
+
+### 4. Export for Visualization
+The cleaned dataset was exported to a new CSV file for use in Tableau:
+
+### 5. Summary of Cleaning Outcomes
+**Missing Values Addressed:** Filled null ratings and recalculated missing discount percentages.
+**Inconsistent Data Fixed:** Standardized brand/model names and removed duplicates.
+**Outliers Removed:** Unrealistic values in price, discount percentages, and ratings were deleted.
+**Enhanced Dataset:** Added calculated fields like Profit_Margin and Discount Amount for deeper insights.
+
+### Data Visualization
+The cleaned dataset was visualized in Tableau to create the **Phone Brand Sales Dashboard**, highlighting:
+
+1. Total sales by brand
+2. Models with the highest discount percentages
+3. Customer ratings across price ranges
+4. Flagship model performance compared to discounted models
