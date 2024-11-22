@@ -67,3 +67,13 @@ WHERE id NOT IN (
     GROUP BY Brand, Model, Selling_Price, Original_Price
 );*
     
+#### Step 5: Handling Outliers
+Identified and removed outliers based on:
+- Discount percentages > 100% or < 0%
+- Ratings > 5 or < 0
+- Negative prices
+
+DELETE FROM phone_sales
+WHERE Discount_Percentage > 100 OR Discount_Percentage < 0
+   OR Rating > 5 OR Rating < 0
+   OR Selling_Price < 0 OR Original_Price < 0;
