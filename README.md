@@ -44,7 +44,7 @@ The CSV file was imported into the database using SQL’s `LOAD DATA` function.
 #### Step 2: Handling Missing Values
 - **Ratings**: Replaced missing ratings with the average rating of the respective brand.
 
--- **Discount Percentages**: Recalculated missing discounts using the formula:            
+- **Discount Percentages**: Recalculated missing discounts using the formula:            
 
 *UPDATE phone_sales
 SET Discount_Percentage = ((Original_Price - Selling_Price) / Original_Price) * 100
