@@ -32,14 +32,14 @@ The dataset had the following issues:
 - **Inconsistent Formatting:** Brand and model names had variations in spelling and capitalization.
 - **Outliers:** Unrealistic values in price and ratings (e.g., negative discounts, ratings above 5).
 - **Duplicate Records:** Duplicate entries for certain phone models.
-- **Data Type Errors:** Numeric columns like `Selling Price` were stored as text.
+- **Data Type Errors:** Numeric columns like Selling Price were stored as text.
 
 ---
 
 ### 3. Cleaning Steps in SQL
 
 #### Step 1: Load Data
-The CSV file was imported into the database using SQL’s `LOAD DATA` function.
+The CSV file was imported into the database using SQL’s LOAD DATA function.
 
 #### Step 2: Handling Missing Values
 - **Ratings**: Replaced missing ratings with the average rating of the respective brand.
