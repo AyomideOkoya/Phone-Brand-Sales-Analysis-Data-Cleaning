@@ -114,7 +114,7 @@ The objective of this project is to analyze phone sales data, extract key insigh
 ---
 
 ## Dashboard Overview
-![Phone Brand Dashboard](image.jpg)
+![Phone Brand Dashboard](https://github.com/AyomideOkoya/Phone-Brand-Sales-Analysis-Data-Cleaning/blob/8d53d10d72fdd8debc4aa95883a0566e71c09d3c/Phone%20Analysis%20Dashboard.png)
 
 ### Key Metrics Highlighted:
 - **Total Discount Given**: $3,962,443
